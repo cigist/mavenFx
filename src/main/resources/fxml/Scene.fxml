@@ -6,9 +6,10 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml" fx:controller="com.cigist.mavenfx.FXMLController">
+<AnchorPane id="AnchorPane" prefHeight="259.0" prefWidth="379.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cigist.mavenfx.FXMLController">
     <children>
-        <Button layoutX="126" layoutY="90" text="Click Me!" onAction="#handleButtonAction" fx:id="button" />
-        <Label layoutX="126" layoutY="120" minHeight="16" minWidth="69" fx:id="label" />
+        <Button fx:id="button" layoutX="136.0" layoutY="130.0" onAction="#handleButtonAction" text="Click Me!" />
+        <Label fx:id="label" layoutX="31.0" layoutY="167.0" minHeight="16" minWidth="69" prefHeight="16.0" prefWidth="307.0" textAlignment="JUSTIFY" />
+      <TextField fx:id="textName" layoutX="104.0" layoutY="67.0" promptText="input yout name" />
     </children>
 </AnchorPane>
